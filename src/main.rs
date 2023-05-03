@@ -104,7 +104,7 @@ async fn data_collector() {
     loop {
         collect_interval.tick().await;
         let mut rng = thread_rng();
-        let response_time: f64 = rng.gen_range(0.001..10.0);
+        let response_time: f64 = rng.gen_range(0.001..11.0);
         let response_code: usize = rng.gen_range(100..599);
         let env_index: usize = rng.gen_range(0..2);
 

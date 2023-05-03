@@ -8,7 +8,7 @@ edition = "2021"
 [dependencies]
 tokio = { version = "1.19.0", features = ["full"] }
 warp = "0.3.2"
-prometheus = { version = "0.13.1", features = ["process"] }
+prometheus = { version = "0.12.0", features = ["process"] }
 lazy_static = "1.4"
 futures = { version = "0.3", default-features = false }
 rand = "0.8.5"
